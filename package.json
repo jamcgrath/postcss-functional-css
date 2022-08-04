@@ -16,13 +16,15 @@
   },
   "homepage": "https://github.com/iamfrntdv/postcss-functional-css",
   "dependencies": {
-    "lodash.camelcase": "4.3.0",
-    "postcss": "8.4.14"
+    "lodash.camelcase": "4.3.0"
   },
   "devDependencies": {
     "ava": "4.3.1",
     "eslint": "8.21.0",
     "eslint-config-postcss": "4.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.14"
   },
   "scripts": {
     "lint": "eslint index.js",

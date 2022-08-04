@@ -1,23 +1,22 @@
-
-const camelCase = require('lodash.camelcase');
-const generateNodes = require('../utils/generate-nodes');
-const values = require('./align-content-rules');
+const camelCase = require("lodash.camelcase");
+const generateNodes = require("../utils/generate-nodes");
+const values = require("../features/align-content-rules");
 
 module.exports = (node, config, prefix) => {
   if (config.features.alignContent) {
     const rules = [];
-    const classNamePrefix = prefix || '';
+    const classNamePrefix = prefix || "";
     let className;
 
-    if (config.features.alignContent.className === '') {
-      className = '';
+    if (config.features.alignContent.className === "") {
+      className = "";
     } else if (config.features.alignContent.className) {
-      className = config.features.alignContent.className + '-';
+      className = config.features.alignContent.className + "-";
     } else {
-      className = 'content-'
+      className = "content-";
     }
 
-    values.forEach(item => {
+    values.forEach((item) => {
       let selector;
 
       if (config.cssModules) {
@@ -28,7 +27,7 @@ module.exports = (node, config, prefix) => {
 
       const rule = {
         selector: `.${selector}`,
-        decls: item.decls
+        decls: item.decls,
       };
 
       rules.push(rule);

@@ -1,48 +1,47 @@
-
 module.exports = [
   {
-    selector: 'around',
+    selector: "around",
     decls: [
       {
-        prop: 'align-content',
-        value: 'space-around'
-      }
-    ]
+        prop: "align-content",
+        value: "space-around",
+      },
+    ],
   },
   {
-    selector: 'start',
+    selector: "start",
     decls: [
       {
-        prop: 'align-content',
-        value: 'flex-start'
-      }
-    ]
+        prop: "align-content",
+        value: "flex-start",
+      },
+    ],
   },
   {
-    selector: 'center',
+    selector: "center",
     decls: [
       {
-        prop: 'align-content',
-        value: 'center'
-      }
-    ]
+        prop: "align-content",
+        value: "center",
+      },
+    ],
   },
   {
-    selector: 'end',
+    selector: "end",
     decls: [
       {
-        prop: 'align-content',
-        value: 'flex-end'
-      }
-    ]
+        prop: "align-content",
+        value: "flex-end",
+      },
+    ],
   },
   {
-    selector: 'between',
+    selector: "between",
     decls: [
       {
-        prop: 'align-content',
-        value: 'space-between'
-      }
-    ]
-  }
+        prop: "align-content",
+        value: "space-between",
+      },
+    ],
+  },
 ];

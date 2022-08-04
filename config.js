@@ -1,200 +1,198 @@
 module.exports = {
   mediaQueries: [
     {
-      prefix: 'sm',
-      prefixSeparator: '-',
-      params: '(min-width: 480px)'
+      prefix: "sm",
+      prefixSeparator: "-",
+      params: "(min-width: 480px)",
     },
     {
-      prefix: 'md',
-      prefixSeparator: '-',
-      params: '(min-width: 640px)'
+      prefix: "md",
+      prefixSeparator: "-",
+      params: "(min-width: 640px)",
     },
     {
-      prefix: 'lg',
-      prefixSeparator: '-',
-      params: '(min-width: 960px)'
+      prefix: "lg",
+      prefixSeparator: "-",
+      params: "(min-width: 960px)",
     },
     {
-      prefix: 'xl',
-      prefixSeparator: '-',
-      params: '(min-width: 1280px)'
+      prefix: "xl",
+      prefixSeparator: "-",
+      params: "(min-width: 1280px)",
     },
     {
-      prefix: 'xxl',
-      prefixSeparator: '-',
-      params: '(min-width: 1440px)'
-    }
+      prefix: "xxl",
+      prefixSeparator: "-",
+      params: "(min-width: 1440px)",
+    },
   ],
   globalStyles: true,
-  cssModules: false,
+  cssModules: true,
   features: {
     alignContent: {
-      className: 'content'
+      className: "content",
     },
     alignItems: {
-      className: 'items'
+      className: "items",
     },
     alignSelf: {
-      className: 'self'
+      className: "self",
     },
     display: {
-      className: 'd'
+      className: "d",
     },
     flex: {
-      className: 'flex'
+      className: "flex",
     },
     flexDirection: {
-      className: 'direction'
+      className: "direction",
     },
     flexWrap: {
-      className: 'flex'
+      className: "flex",
     },
     float: {
-      className: 'float'
+      className: "float",
     },
     fontSize: {
-      className: 'fs',
+      className: "fs",
       values: [12, 14, 16, 18, 24, 32, 48],
-      unit: 'px'
+      unit: "px",
     },
     fontWeight: {
-      className: 'fw',
-      values: [400, 500, 600, 700]
+      className: "fw",
+      values: [400, 500, 600, 700],
     },
     lineHeight: {
-      className: 'ln',
+      className: "ln",
       values: [16, 18, 20, 22, 28, 36, 52],
-      unit: 'px'
+      unit: "px",
     },
     height: {
-      className: 'h',
-      values: ['auto', 4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-      unit: 'px'
+      className: "h",
+      values: ["auto", 4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
+      unit: "px",
     },
     justifyContent: {
-      className: 'justify'
+      className: "justify",
     },
     margin: {
       all: {
-        className: 'm',
+        className: "m",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       x: {
-        className: 'mx',
+        className: "mx",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       y: {
-        className: 'my',
+        className: "my",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       top: {
-        className: 'mt',
+        className: "mt",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       right: {
-        className: 'mr',
+        className: "mr",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       bottom: {
-        className: 'mb',
+        className: "mb",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       left: {
-        className: 'ml',
+        className: "ml",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
-      }
+        unit: "px",
+      },
     },
     minHeight: {
-      className: 'minh',
+      className: "minh",
       values: [0, 4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-      unit: 'px'
+      unit: "px",
     },
     maxHeight: {
-      className: 'maxh',
+      className: "maxh",
       values: [0, 4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-      unit: 'px'
+      unit: "px",
     },
     objectFit: {
-      className: 'object-fit'
+      className: "object-fit",
     },
     opacity: {
-      className: 'o',
-      increment: 10
+      className: "o",
+      increment: 10,
     },
     padding: {
       all: {
-        className: 'p',
+        className: "p",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       x: {
-        className: 'px',
+        className: "px",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       y: {
-        className: 'py',
+        className: "py",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       top: {
-        className: 'pt',
+        className: "pt",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       right: {
-        className: 'pr',
+        className: "pr",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       bottom: {
-        className: 'pb',
+        className: "pb",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
+        unit: "px",
       },
       left: {
-        className: 'pl',
+        className: "pl",
         values: [4, 8, 12, 16, 20, 24, 28, 36, 48, 72, 96, 120],
-        unit: 'px'
-      }
+        unit: "px",
+      },
     },
     position: {
-      className: 'position'
+      className: "position",
     },
     textAlignment: {
-      className: 'text-alignment'
+      className: "text-alignment",
     },
     textSize: {
-      className: 'fs',
-      fontSizeUnit: 'px',
-      lineHeightUnit: 'px',
+      className: "fs",
       values: [
         {
-          fontSize: 14,
-          lineHeight: 20
+          id: 1,
+          fontSize: "18px",
         },
         {
-          fontSize: 18,
-          lineHeight: 24
-        }
-      ]
+          id: 2,
+          fontSize: "28px",
+        },
+      ],
     },
     textTransform: {
-      className: 'text-transform'
+      className: "text-transform",
     },
     visibility: true,
     zIndex: {
-      className: 'z',
+      className: "z",
       increment: 1,
-      limit: 10
-    }
-  }
+      limit: 10,
+    },
+  },
 };
