@@ -43,9 +43,9 @@ const defaultRules = () => {
     const featureKebab = feature
       .replace(/([a-z])([A-Z])/g, "$1-$2")
       .toLowerCase();
-    const path = `./rules/${featureKebab}-rules`;
+    const path = `./features/${featureKebab}-rules`;
     const pathTest = fs.existsSync(
-      `${__dirname}/rules/${featureKebab}-rules.js`
+      `${__dirname}/features/${featureKebab}-rules.js`
     );
     if (pathTest) {
       features[feature] = require(path);
