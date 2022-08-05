@@ -27,16 +27,7 @@ const ruleList = [
   "visibility",
   "zIndex",
 ];
-// const featuresImport = (list) => {
-//   let features = {};
-//   list.forEach((feature) => {
-//     const featureKebab = feature
-//       .replace(/([a-z])([A-Z])/g, "$1-$2")
-//       .toLowerCase();
-//     features[feature] = require(`${__dirname}/features/${featureKebab}`);
-//   });
-//   return features;
-// };
+
 const defaultRules = () => {
   let features = {};
   ruleList.forEach((feature) => {
